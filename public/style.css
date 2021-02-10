@@ -1,49 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   background: lightblue;
-  font-family: 'Cairo';
+  font-family: "Cairo";
 }
 
-input{
+input {
   border: none;
   font-size: 25px;
 }
 
-input[type="submit"]{
+input[type="submit"] {
   height: 30px;
   width: 25px;
 }
 
-form{
+form {
   text-align: center;
   background: grey;
   font-size: 30px;
 }
 
-header{
+header {
   text-align: center;
 }
 
-a{
+a {
   text-decoration: none;
 }
-.home{
+.home {
   font-size: 25px;
   text-align: center;
 }
 
-.bh{
+.bh {
   font-size: 15px;
 }
 
-center{
+center {
   position: absolute;
   width: 300px;
   height: 200px;
@@ -53,13 +53,13 @@ center{
   margin: -100px 0 0 -150px;
 }
 
-canvas{
+canvas {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-#a{
+#a {
   color: darkblue;
 }
