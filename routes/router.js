@@ -105,9 +105,7 @@ router.post("/solve", (req, res) => {
   let problem = req.body.problem;
   var parser = new Parser();
 
-  for (let i = 0; i < problem.split("").length; i++) {
-    console.log(parser.all(problem.split("")[i]));
-  }
+  console.log(parser.split(problem));
   res.send("look at the console");
 });
 
